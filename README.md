@@ -7,17 +7,22 @@ A sleek, professional website for GreenSpring Management & Marketing consulting 
 ```
 Green Spring Website/
 ├── index.html              # Homepage
-├── about.html              # About page
+├── about.html              # About page  
+├── services.html           # Services page
+├── case-studies.html       # Case studies/results page
 ├── contact.html            # Contact page
 ├── styles/
 │   └── main.css           # Main stylesheet with GreenSpring branding
 ├── js/
 │   └── main.js            # JavaScript functionality
-├── images/                # Logo and other images
-│   └── (logo files to be added)
-├── project-discovery.md   # Discovery questions and project notes
-├── john-leone-linkedin.jpeg
-├── seaview-linkedin-banner.jpeg
+├── images/                # All image assets
+│   ├── greenspring-logo.png
+│   ├── john-leone-linkedin.jpeg
+│   └── seaview-linkedin-banner.jpeg
+├── docs/                  # Documentation and reference files
+│   ├── project-discovery.md
+│   ├── linkedin-profile.md
+│   └── file-organization.md
 └── README.md              # This file
 ```
 
@@ -160,9 +165,11 @@ To work on this project locally:
 4. Test across different screen sizes
 
 ## Assets Used
-- `john-leone-linkedin.jpeg` - Professional headshot
-- `seaview-linkedin-banner.jpeg` - Background/workspace image
-- GreenSpring logo (to be added to images folder)
+- `images/john-leone-linkedin.jpeg` - Professional headshot
+- `images/seaview-linkedin-banner.jpeg` - Background/workspace image
+- `images/greenspring-logo.png` - Main logo (PNG format)
+- `images/greenspring-favicon.jpeg` - Favicon for browser tabs
+- `docs/linkedin-profile.md` - Source data for content population
 
 ## Color Palette
 - **Primary Green**: #22c55e
