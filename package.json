@@ -4,8 +4,9 @@
   "description": "GreenSpring Business Transformation Consulting Website",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run build:local && npx serve out -p 3000",
     "build": "next build",
+    "build:local": "NEXT_PUBLIC_LOCAL_DEV=true next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next export"

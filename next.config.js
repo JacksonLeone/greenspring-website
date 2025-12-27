@@ -5,9 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // Use GitHub Pages paths for production builds
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/greenspring-website' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/greenspring-website' : ''
+  // Use GitHub Pages paths for production builds only (not local dev)
+  assetPrefix: (process.env.NODE_ENV === 'production' && !process.env.NEXT_PUBLIC_LOCAL_DEV) ? '/greenspring-website' : '',
+  basePath: (process.env.NODE_ENV === 'production' && !process.env.NEXT_PUBLIC_LOCAL_DEV) ? '/greenspring-website' : ''
 }
 
 module.exports = nextConfig
