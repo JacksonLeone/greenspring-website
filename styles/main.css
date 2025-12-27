@@ -6,10 +6,10 @@
 }
 
 :root {
-    /* GreenSpring Brand Colors */
-    --primary-green: #22c55e;
-    --primary-blue: #3b82f6;
-    --dark-bg: #0a0a0a;
+    /* GreenSpring Brand Colors - Exact Logo Colors */
+    --primary-green: #00AB4F;
+    --primary-blue: #016DC2;
+    --dark-bg: #000000;
     --dark-secondary: #1a1a1a;
     --text-primary: #ffffff;
     --text-secondary: #a1a1aa;
@@ -17,7 +17,7 @@
     
     /* Gradient */
     --gradient-primary: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-blue) 100%);
-    --gradient-subtle: linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
+    --gradient-subtle: linear-gradient(135deg, rgba(0, 171, 79, 0.1) 0%, rgba(1, 109, 194, 0.1) 100%);
     
     /* Spacing */
     --section-padding: 5rem 0;
@@ -200,7 +200,7 @@ h4 { font-size: var(--font-size-2xl); }
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: radial-gradient(ellipse at top, rgba(34, 197, 94, 0.1) 0%, transparent 70%);
+    background: radial-gradient(ellipse at top, rgba(0, 171, 79, 0.1) 0%, transparent 70%);
 }
 
 .hero-container {
@@ -561,7 +561,7 @@ h4 { font-size: var(--font-size-2xl); }
 /* Page Hero */
 .page-hero {
     padding: 8rem 0 4rem;
-    background: radial-gradient(ellipse at top, rgba(34, 197, 94, 0.1) 0%, transparent 70%);
+    background: radial-gradient(ellipse at top, rgba(0, 171, 79, 0.1) 0%, transparent 70%);
     text-align: center;
 }
 
@@ -805,7 +805,7 @@ h4 { font-size: var(--font-size-2xl); }
     padding: 2rem;
     background: var(--gradient-subtle);
     border-radius: var(--border-radius);
-    border: 1px solid rgba(34, 197, 94, 0.2);
+    border: 1px solid rgba(0, 171, 79, 0.2);
 }
 
 .consultation-info h4 {
@@ -1020,7 +1020,7 @@ h4 { font-size: var(--font-size-2xl); }
     padding: 1.5rem;
     background: var(--gradient-subtle);
     border-radius: var(--border-radius);
-    border: 1px solid rgba(34, 197, 94, 0.2);
+    border: 1px solid rgba(0, 171, 79, 0.2);
 }
 
 .metric-item {
@@ -1138,7 +1138,7 @@ h4 { font-size: var(--font-size-2xl); }
 
 .cta-card {
     background: var(--gradient-subtle);
-    border: 1px solid rgba(34, 197, 94, 0.2);
+    border: 1px solid rgba(0, 171, 79, 0.2);
     border-radius: var(--border-radius);
     padding: 2rem;
     text-align: center;

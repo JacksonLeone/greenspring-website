@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, observerOptions);
     
     // Observe elements for animation
-    const animateElements = document.querySelectorAll('.service-card, .result-stat, .testimonial-card');
+    const animateElements = document.querySelectorAll('.service-card, .result-stat');
     animateElements.forEach(el => observer.observe(el));
     
     // Counter Animation for Stats
@@ -162,16 +162,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const style = document.createElement('style');
     style.textContent = `
         .animate-in {
-            opacity: 1;
-            transform: translateY(0);
+            opacity: 1 !important;
+            transform: translateY(0) !important;
             transition: all 0.6s ease;
         }
         
-        .service-card,
-        .result-stat,
-        .testimonial-card {
+        .service-card:not(.animate-in),
+        .result-stat:not(.animate-in) {
             opacity: 0;
             transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        
+        .testimonial-card {
+            opacity: 1;
+            transform: translateY(0);
             transition: all 0.6s ease;
         }
         
