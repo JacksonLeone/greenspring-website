@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { getImagePath } from '../utils/imagePath';
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -44,7 +45,7 @@ export default function Navigation() {
       <div className="nav-container">
         <div className="nav-logo">
           <Link href="/">
-            <img src="./images/greenspring-logo-with-text.png" alt="GreenSpring - Management & Marketing" className="logo-with-text" />
+            <img src={getImagePath('images/greenspring-logo-with-text.png')} alt="GreenSpring - Management & Marketing" className="logo-with-text" />
           </Link>
         </div>
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>

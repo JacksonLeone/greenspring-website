@@ -71,6 +71,14 @@ A sleek, professional website for GreenSpring Management & Marketing consulting 
 - [ ] Set up analytics tracking
 
 ## Future Work
+- [ ] Set up custom domain to simplify image path logic and remove GitHub Pages subdirectory requirement
+  - [ ] Purchase custom domain (e.g., greenspring.com)
+  - [ ] Add CNAME file to repository root with custom domain
+  - [ ] Configure DNS settings at domain registrar to point to jacksonleone.github.io
+  - [ ] Remove basePath and assetPrefix from next.config.js
+  - [ ] Update getImagePath utility to always use root paths
+  - [ ] Test all pages and images work correctly with custom domain
+  - [ ] Eventually remove getImagePath utility entirely once confirmed working
 - [ ] Potential integration with Formspree for Email Automation [https://formspree.io](https://formspree.io)
 
 ### Hosting Setup

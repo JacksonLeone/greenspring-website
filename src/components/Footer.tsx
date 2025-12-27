@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { getImagePath } from '../utils/imagePath';
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="./images/greenspring-logo-with-text.png" alt="GreenSpring Logo" className="logo-with-text" />
+            <img src={getImagePath('images/greenspring-logo-with-text.png')} alt="GreenSpring Logo" className="logo-with-text" />
             <p>Management & Marketing Excellence</p>
           </div>
           <div className="footer-links">

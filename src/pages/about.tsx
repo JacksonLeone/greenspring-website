@@ -1,6 +1,6 @@
-import React from 'react'
-import Layout from '../components/Layout'
-
+import React from 'react';
+import Layout from '../components/Layout';
+import { getImagePath } from '../utils/imagePath';
 export default function About() {
   return (
     <Layout title="About - GreenSpring Business Transformation">
@@ -19,7 +19,7 @@ export default function About() {
         <div className="container">
           <div className="story-grid">
             <div className="story-image">
-              <img src="./images/john-leone-linkedin.jpeg" alt="John Leone - Founder of GreenSpring" className="profile-image-large" />
+              <img src={getImagePath('images/john-leone-linkedin.jpeg')} alt="John Leone - Founder of GreenSpring" className="profile-image-large" />
             </div>
             <div className="story-content">
               <h2>Meet Your Strategic Partner</h2>
@@ -173,7 +173,7 @@ export default function About() {
               </div>
             </div>
             <div className="mission-visual">
-              <img src="./images/seaview-linkedin-banner.jpeg" alt="Professional workspace" className="mission-image" />
+              <img src={getImagePath('images/seaview-linkedin-banner.jpeg')} alt="Professional workspace" className="mission-image" />
             </div>
           </div>
         </div>
