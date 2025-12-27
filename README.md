@@ -172,8 +172,8 @@ To work on this project locally:
 - `docs/linkedin-profile.md` - Source data for content population
 
 ## Color Palette
-- **Primary Green**: #22c55e
-- **Primary Blue**: #3b82f6  
+- **Primary Green**: #00AB4F
+- **Primary Blue**: #016DC2  
 - **Dark Background**: #0a0a0a
 - **Dark Secondary**: #1a1a1a
 - **Text Primary**: #ffffff
