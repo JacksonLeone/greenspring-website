@@ -5,9 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // Only use GitHub Pages paths when explicitly deploying
-  assetPrefix: process.env.DEPLOY_TARGET === 'github-pages' ? '/greenspring-website' : '',
-  basePath: process.env.DEPLOY_TARGET === 'github-pages' ? '/greenspring-website' : ''
+  // Use GitHub Pages paths for production builds
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/greenspring-website' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/greenspring-website' : ''
 }
 
 module.exports = nextConfig

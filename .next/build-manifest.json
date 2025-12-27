@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/Knc8zFdvk9n0bC6zkbSPQ/_buildManifest.js",
-    "static/Knc8zFdvk9n0bC6zkbSPQ/_ssgManifest.js"
+    "static/MzmbYMdDRAoXCJiZOKkrP/_buildManifest.js",
+    "static/MzmbYMdDRAoXCJiZOKkrP/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "rootMainFilesTree": {},
@@ -37,6 +37,27 @@
       "static/chunks/main-4fe9ee45703e0455.js",
       "static/chunks/392-1648afe4ffecb6c6.js",
       "static/chunks/pages/about-7fc3770d2c9c720f.js"
+    ],
+    "/case-studies": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-b96261d959dd50e7.js",
+      "static/chunks/main-4fe9ee45703e0455.js",
+      "static/chunks/392-1648afe4ffecb6c6.js",
+      "static/chunks/pages/case-studies-92b88cd7bb501db3.js"
+    ],
+    "/contact": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-b96261d959dd50e7.js",
+      "static/chunks/main-4fe9ee45703e0455.js",
+      "static/chunks/392-1648afe4ffecb6c6.js",
+      "static/chunks/pages/contact-9ecdba1610237ae7.js"
+    ],
+    "/services": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-b96261d959dd50e7.js",
+      "static/chunks/main-4fe9ee45703e0455.js",
+      "static/chunks/392-1648afe4ffecb6c6.js",
+      "static/chunks/pages/services-dac696b2b1ed0743.js"
     ]
   },
   "ampFirstPages": []
