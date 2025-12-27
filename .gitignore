@@ -4,6 +4,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Next.js
+.next/
+out/
+docs/
+*.tsbuildinfo
+next-env.d.ts
+
 # IDE files
 .vscode/
 .idea/

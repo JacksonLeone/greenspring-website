@@ -19,7 +19,7 @@ export default function About() {
         <div className="container">
           <div className="story-grid">
             <div className="story-image">
-              <img src="/images/john-leone-linkedin.jpeg" alt="John Leone - Founder of GreenSpring" className="profile-image-large" />
+              <img src="./images/john-leone-linkedin.jpeg" alt="John Leone - Founder of GreenSpring" className="profile-image-large" />
             </div>
             <div className="story-content">
               <h2>Meet Your Strategic Partner</h2>
@@ -173,7 +173,7 @@ export default function About() {
               </div>
             </div>
             <div className="mission-visual">
-              <img src="/images/seaview-linkedin-banner.jpeg" alt="Professional workspace" className="mission-image" />
+              <img src="./images/seaview-linkedin-banner.jpeg" alt="Professional workspace" className="mission-image" />
             </div>
           </div>
         </div>

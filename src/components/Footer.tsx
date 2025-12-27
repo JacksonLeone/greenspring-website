@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="/images/greenspring-logo-with-text.png" alt="GreenSpring Logo" className="logo-with-text" />
+            <img src="./images/greenspring-logo-with-text.png" alt="GreenSpring Logo" className="logo-with-text" />
             <p>Management & Marketing Excellence</p>
           </div>
           <div className="footer-links">
