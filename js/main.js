@@ -124,16 +124,63 @@ document.addEventListener('DOMContentLoaded', function() {
     const resultStats = document.querySelectorAll('.result-stat');
     resultStats.forEach(stat => statsObserver.observe(stat));
     
-    // Form Handling (placeholder for contact forms)
-    const forms = document.querySelectorAll('form');
-    forms.forEach(form => {
-        form.addEventListener('submit', function(e) {
+    // Professional Contact Form Handler
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
-            // Add form submission logic here
-            console.log('Form submitted');
-            alert('Thank you for your message. We will get back to you soon!');
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name') || 'Not provided';
+            const email = formData.get('email') || 'Not provided';
+            const company = formData.get('company') || 'Not provided';
+            const phone = formData.get('phone') || 'Not provided';
+            const industry = formData.get('industry') || 'Not provided';
+            const companySize = formData.get('company-size') || 'Not provided';
+            const interest = formData.get('interest') || 'Not provided';
+            const message = formData.get('message') || 'Not provided';
+            const timeline = formData.get('timeline') || 'Not provided';
+            
+            // Create professional email subject
+            const subject = `New Business Inquiry from ${company}`;
+            
+            // Create professional email body
+            const emailBody = `Hello,
+
+I am interested in discussing business consulting services with GreenSpring.
+
+CONTACT INFORMATION:
+• Name: ${name}
+• Company: ${company}
+• Email: ${email}
+• Phone: ${phone}
+• Industry: ${industry}
+
+PROJECT DETAILS:
+• Primary Interest: ${interest}
+• Company Size: ${companySize}
+• Preferred Timeline: ${timeline}
+
+MESSAGE:
+${message}
+
+---
+This inquiry was submitted through the GreenSpring website contact form.
+
+Best regards,
+${name}
+${company}`;
+            
+            // Create mailto URL with proper encoding
+            const mailtoUrl = `mailto:greenspringjohn@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+            
+            // Open email client
+            window.location.href = mailtoUrl;
+            
+            console.log('Professional email template generated');
         });
-    });
+    }
     
     // Button Click Handlers
     const consultationBtns = document.querySelectorAll('.btn-primary');

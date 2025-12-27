@@ -2,38 +2,6 @@
 
 A sleek, professional website for GreenSpring Management & Marketing consulting firm.
 
-## Project Structure
-
-```
-Green Spring Website/
-├── index.html              # Homepage
-├── about.html              # About page  
-├── services.html           # Services page
-├── case-studies.html       # Case studies/results page
-├── contact.html            # Contact page
-├── styles/
-│   └── main.css           # Main stylesheet with GreenSpring branding
-├── js/
-│   └── main.js            # JavaScript functionality
-├── images/                # All image assets
-│   ├── greenspring-logo.png
-│   ├── john-leone-linkedin.jpeg
-│   └── seaview-linkedin-banner.jpeg
-├── docs/                  # Documentation and reference files
-│   ├── project-discovery.md
-│   ├── linkedin-profile.md
-│   └── file-organization.md
-└── README.md              # This file
-```
-
-## Design Features
-
-### Branding
-- **Colors**: Black (#0a0a0a), Green (#22c55e), Blue (#3b82f6)
-- **Typography**: Inter font family for modern, clean look
-- **Theme**: Circular design elements throughout
-- **Logo**: GreenSpring logo with gradient circle design
-
 ### Key Design Elements
 - Animated circular elements in hero section
 - Gradient text effects for emphasis
@@ -101,6 +69,9 @@ Green Spring Website/
 - [ ] Optimize images for web
 - [ ] Add meta tags for SEO
 - [ ] Set up analytics tracking
+
+## Future Work
+- [ ] Potential integration with Formspree for Email Automation [https://formspree.io](https://formspree.io)
 
 ### Hosting Setup
 
