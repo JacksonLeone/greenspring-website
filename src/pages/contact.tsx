@@ -120,8 +120,17 @@ export default function Contact() {
                 <div className="contact-details">
                   <h4>Email</h4>
                   <p><a href="mailto:greenspringjohn@gmail.com">greenspringjohn@gmail.com</a></p>
-                  <p className="contact-note">I personally read and respond to every inquiry</p>
                 </div>
+              </div>
+
+              <div className="contact-method">
+                  <div className="contact-icon">
+                      <div className="icon-circle gradient-bg"></div>
+                  </div>
+                  <div className="contact-details">
+                      <h4>Phone</h4>
+                      <p><a href="tel:+18608401409">(860) 840-1409</a></p>
+                  </div>
               </div>
               
               <div className="contact-method">
@@ -131,20 +140,9 @@ export default function Contact() {
                 <div className="contact-details">
                   <h4>LinkedIn</h4>
                   <p><a href="https://linkedin.com/in/johnleone-greenspring" target="_blank" rel="noopener noreferrer">Connect with me</a></p>
-                  <p className="contact-note">Professional updates and industry insights</p>
                 </div>
               </div>
               
-              <div className="contact-method">
-                <div className="contact-icon">
-                  <div className="icon-circle gradient-bg"></div>
-                </div>
-                <div className="contact-details">
-                  <h4>Response Time</h4>
-                  <p>Within 24 hours</p>
-                  <p className="contact-note">Usually much faster during business hours</p>
-                </div>
-              </div>
               
               <div className="consultation-info">
                 <h4>Free Consultation Includes:</h4>
@@ -202,56 +200,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Location Section */}
-      <section className="location-section">
-        <div className="container">
-          <div className="location-content">
-            <div className="location-text">
-              <h2>Global Reach, Personal Service</h2>
-              <p className="lead">While I'm based in the Caribbean, I work with organizations worldwide. Thanks to modern technology and my extensive travel experience, geography is no barrier to effective collaboration.</p>
-              
-              <div className="location-highlights">
-                <div className="location-item">
-                  <div className="location-icon">
-                    <div className="icon-circle gradient-bg"></div>
-                  </div>
-                  <div className="location-details">
-                    <h4>Caribbean Based</h4>
-                    <p>Providing unique perspectives from a dynamic business environment</p>
-                  </div>
-                </div>
-                
-                <div className="location-item">
-                  <div className="location-icon">
-                    <div className="icon-circle gradient-bg"></div>
-                  </div>
-                  <div className="location-details">
-                    <h4>Global Experience</h4>
-                    <p>Worked across North America, Europe, and the Caribbean</p>
-                  </div>
-                </div>
-                
-                <div className="location-item">
-                  <div className="location-icon">
-                    <div className="icon-circle gradient-bg"></div>
-                  </div>
-                  <div className="location-details">
-                    <h4>Remote & On-Site</h4>
-                    <p>Flexible engagement models to meet your needs</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="location-visual">
-              <div className="location-placeholder">
-                <div className="icon-circle gradient-bg"></div>
-                <p>Global Consulting Network</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Final CTA */}
       <section className="cta-section">
