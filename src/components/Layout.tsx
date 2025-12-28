@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import Navigation from './Navigation'
 import Footer from './Footer'
 import { getImagePath } from '../utils/imagePath';
@@ -11,7 +12,7 @@ interface LayoutProps {
 export default function Layout({ children, title = 'GreenSpring - Business Transformation Consulting' }: LayoutProps) {
   return (
     <>
-      <head>
+      <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{title}</title>
@@ -24,7 +25,7 @@ export default function Layout({ children, title = 'GreenSpring - Business Trans
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-      </head>
+      </Head>
       <Navigation />
       <main>{children}</main>
       <Footer />
