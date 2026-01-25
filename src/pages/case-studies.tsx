@@ -16,49 +16,6 @@ export default function CaseStudies() {
         </div>
       </section>
 
-      {/* Results Overview */}
-      {/* <section className="results-overview">
-        <div className="container">
-          <div className="overview-content">
-            <h2>Transformations That Matter</h2>
-            <p className="lead">Every engagement is unique, but the results speak for themselves. Here's how GreenSpring partnerships have driven sustainable growth and operational excellence.</p>
-            
-            <div className="results-stats">
-              <div className="stat-card">
-                <div className="stat-icon">
-                  <div className="icon-circle gradient-bg"></div>
-                </div>
-                <div className="stat-content">
-                  <div className="stat-number gradient-text">150%</div>
-                  <div className="stat-label">Average Revenue Growth</div>
-                  <div className="stat-detail">Within 18 months of engagement</div>
-                </div>
-              </div>
-              <div className="stat-card">
-                <div className="stat-icon">
-                  <div className="icon-circle gradient-bg"></div>
-                </div>
-                <div className="stat-content">
-                  <div className="stat-number gradient-text">35%</div>
-                  <div className="stat-label">Cost Reduction</div>
-                  <div className="stat-detail">Through operational optimization</div>
-                </div>
-              </div>
-              <div className="stat-card">
-                <div className="stat-icon">
-                  <div className="icon-circle gradient-bg"></div>
-                </div>
-                <div className="stat-content">
-                  <div className="stat-number gradient-text">95%</div>
-                  <div className="stat-label">Client Satisfaction</div>
-                  <div className="stat-detail">Would recommend to peers</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       {/* Case Studies */}
       <section className="case-studies">
         <div className="container">
@@ -373,7 +330,7 @@ export default function CaseStudies() {
         </div>
       </section>
 
-      {/* Testimonials
+      {/* Testimonials */}
       <section className="testimonials-section">
         <div className="container">
           <div className="section-header">
@@ -391,23 +348,16 @@ export default function CaseStudies() {
             </div>
             
             <div className="testimonial-card">
-              <p className="testimonial-text">"The commercial integration John led was seamless and resulted in sustained growth across all our Caribbean markets. His strategic vision and execution capabilities are outstanding."</p>
+              <p className="testimonial-text">"John Leone is a solutions-oriented leader. He is one of the owners of International Liquors Tobacco and Trading and Heineken in St. Maarten, an island in the Caribbean Sea. He has always had his hand on the pulse of his employees, with a focus on family first and delivering world-class customer service."</p>
               <div className="testimonial-author">
-                <strong>Regional Marketing Manager</strong>
-                <span>Heineken Caribbean</span>
+                <strong>Dr. Rick Goodman</strong>
+                <span>Leadership Expert and Keynote Speaker</span>
               </div>
-            </div>
-            
-            <div className="testimonial-card">
-              <p className="testimonial-text">"Under John's leadership as Chairman, the St. Maarten Heineken Regatta has become one of the Caribbean's premier international events. His ability to balance brand excellence with local community impact is remarkable."</p>
-              <div className="testimonial-author">
-                <strong>Event Stakeholder</strong>
-                <span>St. Maarten Heineken Regatta</span>
-              </div>
+              <a href="/downloads/John Leone excerpt Leadership.pdf" download className="testimonial-link">Read Full Leadership Excerpt</a>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* CTA Section */}
       <CTASection />
