@@ -10,8 +10,8 @@ export default function Services() {
       <section className="page-hero">
         <div className="container">
           <div className="hero-content">
-            <h1>Strategic <span className="gradient-text">Services</span></h1>
-            <p className="hero-subtitle">Comprehensive business transformation solutions designed to drive sustainable growth and operational excellence.</p>
+            <h1><span className="gradient-text">Services</span></h1>
+            <p className="hero-subtitle">Practical Experience. Measurable Results.</p>
           </div>
         </div>
       </section>
@@ -20,33 +20,12 @@ export default function Services() {
       <section className="services-intro">
         <div className="container">
           <div className="intro-content">
-            <h2>Transforming Businesses Through Strategic Excellence</h2>
-            <p className="lead">Drawing from over 20 years of experience with global brands like Heineken and Walmart, plus hands-on entrepreneurial success including 600% revenue growth, I provide customized strategies that deliver measurable results aligned with your specific goals and market context.</p>
-            <div className="intro-stats">
-              <div className="intro-stat">
-                <div className="stat-icon">
-                  <div className="icon-circle gradient-bg"></div>
-                </div>
-                <div className="stat-content">
-                  <h4>Holistic Approach</h4>
-                  <p>Strategy, operations, and leadership working in harmony</p>
-                </div>
-              </div>
-              <div className="intro-stat">
-                <div className="stat-icon">
-                  <div className="icon-circle gradient-bg"></div>
-                </div>
-                <div className="stat-content">
-                  <h4>Proven Methodologies</h4>
-                  <p>Time-tested frameworks adapted to your unique situation</p>
-                </div>
-              </div>
-            </div>
+            <p className="lead">I work directly with owners and leadership teams to improve performance across marketing, operations, retail, hospitality, and events. My services are hands-on and tailored—focused on what will actually move your business forward.</p>
           </div>
         </div>
       </section>
 
-      {/* Strategic Planning */}
+      {/* Strategic Business & Commercial Planning */}
       <section id="strategic" className="service-detail">
         <div className="container">
           <div className="service-layout">
@@ -55,23 +34,20 @@ export default function Services() {
                 <div className="icon-circle gradient-bg"></div>
               </div>
               <div className="service-title">
-                <h2>Strategic Planning & Vision</h2>
-                <p className="service-tagline">Building roadmaps for sustainable growth</p>
+                <h2>Strategic Business & Commercial Planning</h2>
+                <p className="service-tagline">I help businesses clarify where to focus, how to prioritize, and how to execute.</p>
               </div>
             </div>
             <div className="service-content">
               <div className="service-description">
-                <p className="lead">Transform your vision into actionable strategy with comprehensive planning that aligns all stakeholders and resources toward common objectives.</p>
-                
-                <h3>What's Included:</h3>
+                <h3>This includes:</h3>
                 <div className="service-features">
                   <div className="feature-item">
                     <div className="feature-icon">
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Market Analysis & Positioning</h4>
-                      <p>Deep dive into competitive landscape, market opportunities, and strategic positioning</p>
+                      <p>Commercial strategy and growth planning</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -79,8 +55,7 @@ export default function Services() {
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Business Model Optimization</h4>
-                      <p>Evaluate and refine revenue streams, value propositions, and operational models</p>
+                      <p>Revenue, pricing, and portfolio optimization</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -88,34 +63,29 @@ export default function Services() {
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Strategic Roadmap Development</h4>
-                      <p>Create clear, measurable milestones with timelines and resource requirements</p>
+                      <p>Market entry and expansion planning</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Business model evaluation and repositioning</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="service-outcomes">
-                <h3>Expected Outcomes:</h3>
-                <ul className="outcomes-list">
-                  <li>Clear 3-5 year strategic vision with actionable milestones</li>
-                  <li>Improved market positioning and competitive advantage</li>
-                  <li>Aligned leadership team with shared strategic objectives</li>
-                  <li>Resource optimization and investment prioritization</li>
-                </ul>
-                <div className="service-metrics">
-                  <div className="metric-item">
-                    <span className="metric-number gradient-text">25%</span>
-                    <span className="metric-label">Average revenue growth within 12 months</span>
-                  </div>
-                </div>
+                <p className="service-goal">The goal is simple: clear direction and actionable priorities.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Operations Optimization */}
-      <section id="operations" className="service-detail alternate">
+      {/* Marketing Strategy, Brand & Activation */}
+      <section id="marketing" className="service-detail alternate">
         <div className="container">
           <div className="service-layout">
             <div className="service-header">
@@ -123,23 +93,20 @@ export default function Services() {
                 <div className="icon-circle gradient-bg"></div>
               </div>
               <div className="service-title">
-                <h2>Operations Optimization</h2>
-                <p className="service-tagline">Streamlining processes for maximum efficiency</p>
+                <h2>Marketing Strategy, Brand & Activation</h2>
+                <p className="service-tagline">I help brands connect strategy to real-world execution.</p>
               </div>
             </div>
             <div className="service-content">
               <div className="service-description">
-                <p className="lead">Eliminate bottlenecks, reduce waste, and optimize workflows to create lean, efficient operations that scale with your growth.</p>
-                
-                <h3>What's Included:</h3>
+                <h3>This includes:</h3>
                 <div className="service-features">
                   <div className="feature-item">
                     <div className="feature-icon">
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Process Mapping & Analysis</h4>
-                      <p>Comprehensive review of existing workflows and identification of improvement opportunities</p>
+                      <p>Brand positioning and messaging</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -147,8 +114,7 @@ export default function Services() {
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Technology Integration</h4>
-                      <p>Evaluate and implement tools and systems that enhance operational efficiency</p>
+                      <p>Logo design and visual identity development or reimagination</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -156,34 +122,37 @@ export default function Services() {
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Performance Metrics & KPIs</h4>
-                      <p>Establish measurement systems to track operational improvements and ROI</p>
+                      <p>Merchandise lines and branded product programs</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Marketing campaigns and activation planning</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Sponsorship and partnership strategy</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="service-outcomes">
-                <h3>Expected Outcomes:</h3>
-                <ul className="outcomes-list">
-                  <li>30-40% reduction in operational inefficiencies</li>
-                  <li>Improved customer satisfaction through faster delivery</li>
-                  <li>Enhanced team productivity and job satisfaction</li>
-                  <li>Scalable systems that grow with your business</li>
-                </ul>
-                <div className="service-metrics">
-                  <div className="metric-item">
-                    <span className="metric-number gradient-text">35%</span>
-                    <span className="metric-label">Average cost reduction through optimization</span>
-                  </div>
-                </div>
+                <p className="service-goal">Marketing should drive results—not just visibility.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Marketing Strategy */}
-      <section id="marketing" className="service-detail">
+      {/* Retail & Distribution Strategy */}
+      <section id="retail" className="service-detail">
         <div className="container">
           <div className="service-layout">
             <div className="service-header">
@@ -191,23 +160,20 @@ export default function Services() {
                 <div className="icon-circle gradient-bg"></div>
               </div>
               <div className="service-title">
-                <h2>Marketing Strategy & Growth</h2>
-                <p className="service-tagline">Building systems that attract and retain customers</p>
+                <h2>Retail & Distribution Strategy</h2>
+                <p className="service-tagline">With experience on both sides of retail and distribution, I help businesses operate more effectively.</p>
               </div>
             </div>
             <div className="service-content">
               <div className="service-description">
-                <p className="lead">Develop comprehensive marketing strategies that build brand presence, generate qualified leads, and create sustainable customer acquisition systems.</p>
-                
-                <h3>What's Included:</h3>
+                <h3>This includes:</h3>
                 <div className="service-features">
                   <div className="feature-item">
                     <div className="feature-icon">
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Brand Strategy & Messaging</h4>
-                      <p>Develop compelling brand positioning and messaging that resonates with target audiences</p>
+                      <p>Retail concept development and store openings</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -215,8 +181,7 @@ export default function Services() {
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Digital Marketing Systems</h4>
-                      <p>Build integrated online presence including website optimization, content strategy, and social media</p>
+                      <p>Wholesale and Cash & Carry strategy</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -224,34 +189,37 @@ export default function Services() {
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Customer Acquisition Funnels</h4>
-                      <p>Design and implement systematic approaches to attract, convert, and retain ideal customers</p>
+                      <p>Distributor and channel management</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Merchandising standards and execution</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Go-to-market and route-to-market planning</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="service-outcomes">
-                <h3>Expected Outcomes:</h3>
-                <ul className="outcomes-list">
-                  <li>50-75% increase in qualified lead generation</li>
-                  <li>Improved brand recognition and market presence</li>
-                  <li>Higher customer lifetime value and retention rates</li>
-                  <li>Measurable ROI on marketing investments</li>
-                </ul>
-                <div className="service-metrics">
-                  <div className="metric-item">
-                    <span className="metric-number gradient-text">60%</span>
-                    <span className="metric-label">Average increase in qualified leads</span>
-                  </div>
-                </div>
+                <p className="service-goal">Execution at the shelf and in the field matters.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Leadership Development */}
-      <section id="leadership" className="service-detail alternate">
+      {/* Hospitality & Destination Development */}
+      <section id="hospitality" className="service-detail alternate">
         <div className="container">
           <div className="service-layout">
             <div className="service-header">
@@ -259,23 +227,20 @@ export default function Services() {
                 <div className="icon-circle gradient-bg"></div>
               </div>
               <div className="service-title">
-                <h2>Leadership Development</h2>
-                <p className="service-tagline">Building high-performing teams and leaders</p>
+                <h2>Hospitality & Destination Development</h2>
+                <p className="service-tagline">I support hospitality businesses through launch, relaunch, or repositioning.</p>
               </div>
             </div>
             <div className="service-content">
               <div className="service-description">
-                <p className="lead">Strengthen leadership capabilities at all levels to create a culture of excellence, accountability, and continuous improvement.</p>
-                
-                <h3>What's Included:</h3>
+                <h3>This includes:</h3>
                 <div className="service-features">
                   <div className="feature-item">
                     <div className="feature-icon">
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Leadership Assessment & Development</h4>
-                      <p>Evaluate current leadership capabilities and create personalized development plans</p>
+                      <p>Hotel, bar, restaurant, café, and beach concept development</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -283,8 +248,7 @@ export default function Services() {
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Team Performance Optimization</h4>
-                      <p>Build cohesive, high-performing teams with clear roles, responsibilities, and accountability</p>
+                      <p>Guest experience and service flow design</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -292,26 +256,163 @@ export default function Services() {
                       <div className="icon-circle"></div>
                     </div>
                     <div className="feature-content">
-                      <h4>Change Management</h4>
-                      <p>Develop capabilities to lead organizational change and transformation initiatives</p>
+                      <p>Food & beverage strategy and programming</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Event-driven hospitality and experiential offerings</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Operational systems and performance improvement</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="service-outcomes">
-                <h3>Expected Outcomes:</h3>
-                <ul className="outcomes-list">
-                  <li>Enhanced leadership effectiveness and decision-making</li>
-                  <li>Improved employee engagement and retention</li>
-                  <li>Stronger organizational culture and alignment</li>
-                  <li>Increased capacity for growth and change</li>
-                </ul>
-                <div className="service-metrics">
-                  <div className="metric-item">
-                    <span className="metric-number gradient-text">40%</span>
-                    <span className="metric-label">Improvement in team performance metrics</span>
+                <p className="service-goal">The focus is on guest experience, profitability, and consistency.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Operations & Organizational Support */}
+      <section id="operations" className="service-detail">
+        <div className="container">
+          <div className="service-layout">
+            <div className="service-header">
+              <div className="service-icon-large">
+                <div className="icon-circle gradient-bg"></div>
+              </div>
+              <div className="service-title">
+                <h2>Operations & Organizational Support</h2>
+                <p className="service-tagline">Strong operations are the foundation of sustainable performance.</p>
+              </div>
+            </div>
+            <div className="service-content">
+              <div className="service-description">
+                <h3>This includes:</h3>
+                <div className="service-features">
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Operational assessments and process improvement</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>SOP development and operational structure</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Staffing models and organizational alignment</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Cross-functional coordination</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Leadership support and execution follow-through</p>
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div className="service-outcomes">
+                <p className="service-goal">Good ideas fail without strong operations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Event Production & Brand Experiences */}
+      <section id="events" className="service-detail alternate">
+        <div className="container">
+          <div className="service-layout">
+            <div className="service-header">
+              <div className="service-icon-large">
+                <div className="icon-circle gradient-bg"></div>
+              </div>
+              <div className="service-title">
+                <h2>Event Production & Brand Experiences</h2>
+                <p className="service-tagline">I design and execute events that support business goals.</p>
+              </div>
+            </div>
+            <div className="service-content">
+              <div className="service-description">
+                <h3>This includes:</h3>
+                <div className="service-features">
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Large-scale event production and management</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Brand activations and experiential marketing</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Entertainment programming and logistics</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>Stakeholder and sponsor coordination</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <div className="feature-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <div className="feature-content">
+                      <p>On-site execution and performance oversight</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="service-outcomes">
+                <p className="service-goal">Events should strengthen brands and drive engagement—not just create noise.</p>
               </div>
             </div>
           </div>
@@ -322,43 +423,29 @@ export default function Services() {
       <section className="process-section">
         <div className="container">
           <div className="section-header">
-            <h2>My Proven Process</h2>
-            <p>A systematic approach that ensures successful outcomes</p>
+            <h2>How Engagements Typically Work</h2>
           </div>
-          <div className="process-timeline">
-            <div className="process-step">
-              <div className="step-number">01</div>
-              <div className="step-content">
-                <h3>Discovery & Assessment</h3>
-                <p>Comprehensive analysis of current state, challenges, and opportunities through stakeholder interviews, data analysis, and market research.</p>
-                <span className="step-duration">2-4 weeks</span>
+          <div className="engagement-approach">
+            <div className="approach-item">
+              <div className="approach-icon">
+                <div className="icon-circle gradient-bg"></div>
               </div>
+              <p>Short-term advisory or project-based support</p>
             </div>
-            <div className="process-step">
-              <div className="step-number">02</div>
-              <div className="step-content">
-                <h3>Strategy Development</h3>
-                <p>Collaborative creation of customized solutions and strategic roadmaps based on assessment findings and organizational goals.</p>
-                <span className="step-duration">2-3 weeks</span>
+            <div className="approach-item">
+              <div className="approach-icon">
+                <div className="icon-circle gradient-bg"></div>
               </div>
+              <p>Hands-on involvement during execution</p>
             </div>
-            <div className="process-step">
-              <div className="step-number">03</div>
-              <div className="step-content">
-                <h3>Implementation Planning</h3>
-                <p>Detailed project plans with timelines, resources, milestones, and success metrics to ensure smooth execution.</p>
-                <span className="step-duration">1-2 weeks</span>
+            <div className="approach-item">
+              <div className="approach-icon">
+                <div className="icon-circle gradient-bg"></div>
               </div>
-            </div>
-            <div className="process-step">
-              <div className="step-number">04</div>
-              <div className="step-content">
-                <h3>Execution & Support</h3>
-                <p>Hands-on implementation support with regular check-ins, progress monitoring, and course corrections as needed.</p>
-                <span className="step-duration">Ongoing</span>
-              </div>
+              <p>Ongoing leadership support as needed</p>
             </div>
           </div>
+          <p className="engagement-note">Every engagement is tailored to the business and the moment.</p>
         </div>
       </section>
 

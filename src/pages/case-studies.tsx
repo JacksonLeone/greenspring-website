@@ -17,7 +17,7 @@ export default function CaseStudies() {
       </section>
 
       {/* Results Overview */}
-      <section className="results-overview">
+      {/* <section className="results-overview">
         <div className="container">
           <div className="overview-content">
             <h2>Transformations That Matter</h2>
@@ -57,7 +57,7 @@ export default function CaseStudies() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Case Studies */}
       <section className="case-studies">
@@ -373,7 +373,7 @@ export default function CaseStudies() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Testimonials
       <section className="testimonials-section">
         <div className="container">
           <div className="section-header">
@@ -407,7 +407,7 @@ export default function CaseStudies() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <CTASection />
