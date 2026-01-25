@@ -98,6 +98,31 @@ export default function About() {
           </div>
       </section>
 
+      {/* Current Focus Section */}
+      <section className="current-focus">
+        <div className="container">
+          <div className="focus-content">
+            <div className="focus-header">
+              <h2>Current Focus</h2>
+              <p className="section-subtitle">Where theory meets practice</p>
+            </div>
+            <div className="focus-body">
+              <p className="lead">Most recently, my focus has been on the relaunch and reinvention of a 75-year-old historic beachfront hotel in St. Maarten. This work has included:</p>
+              
+              <ul className="focus-list">
+                <li>Reimagining the hotel, bar, restaurant, pool, cabanas, market, and café</li>
+                <li>Redesigning logos, visual identities, merchandise lines, and brand systems</li>
+                <li>Introducing new retail, hospitality, and event-driven concepts</li>
+                <li>Redesigning marketing, operations, and commercial models</li>
+                <li>Reenergizing a legacy property while honoring its history and role in the community</li>
+              </ul>
+              
+              <p className="focus-closing">This project represents the culmination of my career—marketing, operations, and commercial concepts reimagined, not in theory, but in practice.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Philosophy Section */}
       <section className="philosophy">
         <div className="container">
