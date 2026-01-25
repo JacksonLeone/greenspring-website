@@ -65,62 +65,68 @@ export default function CaseStudies() {
           <div className="case-study">
             <div className="case-header">
               <div className="case-meta">
-                <span className="case-industry">Technology Consulting</span>
-                <span className="case-size">50-100 employees</span>
+                <span className="case-industry">Beverage & Distribution</span>
+                <span className="case-size">Caribbean Markets</span>
               </div>
-              <h2>TechVision Solutions: From $2M to $8M in 18 Months</h2>
-              <p className="case-subtitle">Strategic planning and operational transformation drive 300% revenue growth</p>
+              <h2>Heineken & ILTT Commercial Integration</h2>
+              <p className="case-subtitle">Strategic integration of two organizations into a unified commercial platform across multiple Caribbean markets</p>
             </div>
             
             <div className="case-content">
               <div className="case-challenge">
                 <h3>The Challenge</h3>
-                <p>TechVision Solutions had strong technical capabilities but lacked strategic direction and scalable operations. Revenue had plateaued at $2M annually, and the leadership team was overwhelmed by day-to-day firefighting instead of focusing on growth opportunities.</p>
+                <p>Following a strategic market shift, Heineken and International Liquor & Tobacco Trading (ILTT) required integration into a single commercial organization while maintaining momentum and continuing revenue growth during the transition.</p>
                 <div className="challenge-points">
                   <div className="challenge-point">
                     <div className="point-icon">
                       <div className="icon-circle"></div>
                     </div>
-                    <span>No clear strategic vision or market positioning</span>
+                    <span>Aligning sales teams and incentive structures</span>
                   </div>
                   <div className="challenge-point">
                     <div className="point-icon">
                       <div className="icon-circle"></div>
                     </div>
-                    <span>Inefficient operations and resource allocation</span>
+                    <span>Harmonizing pricing and portfolio strategy</span>
                   </div>
                   <div className="challenge-point">
                     <div className="point-icon">
                       <div className="icon-circle"></div>
                     </div>
-                    <span>Leadership team lacking alignment and focus</span>
+                    <span>Balancing brand standards with local market realities</span>
+                  </div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Maintaining revenue growth during organizational change</span>
                   </div>
                 </div>
               </div>
               
               <div className="case-solution">
-                <h3>The Solution</h3>
-                <p>We implemented a comprehensive transformation focusing on strategic clarity, operational efficiency, and leadership development over 12 months.</p>
+                <h3>What I Did</h3>
+                <p>As Commercial Director, I led the comprehensive integration by designing and implementing unified commercial structures while maintaining operational momentum.</p>
                 <div className="solution-phases">
                   <div className="phase-item">
                     <div className="phase-number">01</div>
                     <div className="phase-content">
-                      <h4>Strategic Positioning</h4>
-                      <p>Developed clear value proposition and market positioning in high-growth vertical markets</p>
+                      <h4>Commercial Structure</h4>
+                      <p>Designed and implemented unified commercial organization across markets</p>
                     </div>
                   </div>
                   <div className="phase-item">
                     <div className="phase-number">02</div>
                     <div className="phase-content">
-                      <h4>Operations Overhaul</h4>
-                      <p>Streamlined project delivery processes and implemented scalable systems</p>
+                      <h4>Team Integration</h4>
+                      <p>Aligned teams, KPIs, and incentive programs while integrating pricing and promotions</p>
                     </div>
                   </div>
                   <div className="phase-item">
                     <div className="phase-number">03</div>
                     <div className="phase-content">
-                      <h4>Leadership Alignment</h4>
-                      <p>Established clear roles, responsibilities, and decision-making frameworks</p>
+                      <h4>Execution Excellence</h4>
+                      <p>Strengthened distributor execution and cross-functional collaboration</p>
                     </div>
                   </div>
                 </div>
@@ -128,18 +134,30 @@ export default function CaseStudies() {
               
               <div className="case-results">
                 <h3>The Results</h3>
-                <div className="results-grid">
-                  <div className="result-metric">
-                    <div className="metric-value gradient-text">300%</div>
-                    <div className="metric-description">Revenue Growth<br />($2M to $8M)</div>
+                <div className="challenge-points">
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Successful integration of two organizations into a single commercial platform</span>
                   </div>
-                  <div className="result-metric">
-                    <div className="metric-value gradient-text">18</div>
-                    <div className="metric-description">Months to<br />Achieve Results</div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Improved portfolio focus and execution across multiple islands</span>
                   </div>
-                  <div className="result-metric">
-                    <div className="metric-value gradient-text">45%</div>
-                    <div className="metric-description">Increase in<br />Profit Margins</div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Sustained revenue growth and increased operational clarity</span>
+                  </div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>A scalable commercial model that supported long-term expansion</span>
                   </div>
                 </div>
               </div>
@@ -150,62 +168,68 @@ export default function CaseStudies() {
           <div className="case-study">
             <div className="case-header">
               <div className="case-meta">
-                <span className="case-industry">Manufacturing</span>
-                <span className="case-size">200+ employees</span>
+                <span className="case-industry">Event Management</span>
+                <span className="case-size">International Scale</span>
               </div>
-              <h2>Industrial Dynamics: Operational Excellence Transformation</h2>
-              <p className="case-subtitle">Process optimization and leadership development reduce costs by 40% while improving quality</p>
+              <h2>St. Maarten Heineken Regatta – Event Leadership & Brand Activation</h2>
+              <p className="case-subtitle">20+ years leading one of the Caribbean's most recognized international sporting and entertainment events</p>
             </div>
             
             <div className="case-content">
               <div className="case-challenge">
                 <h3>The Challenge</h3>
-                <p>Industrial Dynamics faced rising operational costs, quality issues, and declining competitiveness. The company needed to modernize operations while maintaining production quality and employee engagement.</p>
+                <p>Deliver a large-scale, multi-day international event combining world-class sailing, live entertainment, and global brand partnerships while meeting global standards and continuing to grow relevance year after year.</p>
                 <div className="challenge-points">
                   <div className="challenge-point">
                     <div className="point-icon">
                       <div className="icon-circle"></div>
                     </div>
-                    <span>Outdated processes leading to waste and inefficiency</span>
+                    <span>Meeting global brand standards consistently</span>
                   </div>
                   <div className="challenge-point">
                     <div className="point-icon">
                       <div className="icon-circle"></div>
                     </div>
-                    <span>Quality control issues affecting customer satisfaction</span>
+                    <span>Engaging diverse local and international audiences</span>
                   </div>
                   <div className="challenge-point">
                     <div className="point-icon">
                       <div className="icon-circle"></div>
                     </div>
-                    <span>Lack of leadership development and team alignment</span>
+                    <span>Operating safely in complex island environment</span>
+                  </div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Delivering commercial value to sponsors</span>
                   </div>
                 </div>
               </div>
               
               <div className="case-solution">
-                <h3>The Solution</h3>
-                <p>Implemented lean manufacturing principles, quality management systems, and comprehensive leadership development program.</p>
+                <h3>What I Did</h3>
+                <p>For over 20 years, I led comprehensive event production, strategic direction, and stakeholder coordination while serving as Chairman of the event.</p>
                 <div className="solution-phases">
                   <div className="phase-item">
                     <div className="phase-number">01</div>
                     <div className="phase-content">
-                      <h4>Process Mapping</h4>
-                      <p>Analyzed entire production flow and identified improvement opportunities</p>
+                      <h4>Event Production</h4>
+                      <p>Produced large-scale entertainment and on-shore activations with world-class execution</p>
                     </div>
                   </div>
                   <div className="phase-item">
                     <div className="phase-number">02</div>
                     <div className="phase-content">
-                      <h4>Lean Implementation</h4>
-                      <p>Introduced lean manufacturing principles and waste reduction strategies</p>
+                      <h4>Brand Integration</h4>
+                      <p>Led sponsorship integration and brand programming across all event elements</p>
                     </div>
                   </div>
                   <div className="phase-item">
                     <div className="phase-number">03</div>
                     <div className="phase-content">
-                      <h4>Quality Systems</h4>
-                      <p>Established comprehensive quality management and continuous improvement culture</p>
+                      <h4>Strategic Leadership</h4>
+                      <p>Guided strategic direction and used platform for community engagement</p>
                     </div>
                   </div>
                 </div>
@@ -213,18 +237,30 @@ export default function CaseStudies() {
               
               <div className="case-results">
                 <h3>The Results</h3>
-                <div className="results-grid">
-                  <div className="result-metric">
-                    <div className="metric-value gradient-text">40%</div>
-                    <div className="metric-description">Cost Reduction<br />Through Efficiency</div>
+                <div className="challenge-points">
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Consistent delivery of a world-class international event</span>
                   </div>
-                  <div className="result-metric">
-                    <div className="metric-value gradient-text">60%</div>
-                    <div className="metric-description">Quality<br />Improvement</div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Strong sponsor retention and brand alignment</span>
                   </div>
-                  <div className="result-metric">
-                    <div className="metric-value gradient-text">25%</div>
-                    <div className="metric-description">Productivity<br />Increase</div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Significant economic and cultural impact for the island</span>
+                  </div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Long-term growth of the event's global profile and local relevance</span>
                   </div>
                 </div>
               </div>
@@ -235,62 +271,68 @@ export default function CaseStudies() {
           <div className="case-study">
             <div className="case-header">
               <div className="case-meta">
-                <span className="case-industry">Professional Services</span>
-                <span className="case-size">25-50 employees</span>
+                <span className="case-industry">Hospitality</span>
+                <span className="case-size">Historic Property</span>
               </div>
-              <h2>Strategic Solutions Group: Marketing & Growth Acceleration</h2>
-              <p className="case-subtitle">Brand positioning and marketing strategy triple lead generation and expand market presence</p>
+              <h2>Historic Beachfront Hotel Relaunch – St. Maarten</h2>
+              <p className="case-subtitle">Complete transformation of 75-year-old historic beachfront property into modern, market-relevant hospitality experience</p>
             </div>
             
             <div className="case-content">
               <div className="case-challenge">
                 <h3>The Challenge</h3>
-                <p>Strategic Solutions Group had excellent service delivery but struggled with market visibility and lead generation. They needed to differentiate from competitors and build systematic growth.</p>
+                <p>A 75-year-old historic beachfront hotel required a full relaunch to remain relevant in a changing hospitality market while respecting its legacy and maintaining its important community role.</p>
                 <div className="challenge-points">
                   <div className="challenge-point">
                     <div className="point-icon">
                       <div className="icon-circle"></div>
                     </div>
-                    <span>Weak brand positioning in crowded marketplace</span>
+                    <span>Refreshing identity and market positioning</span>
                   </div>
                   <div className="challenge-point">
                     <div className="point-icon">
                       <div className="icon-circle"></div>
                     </div>
-                    <span>Inconsistent marketing efforts and messaging</span>
+                    <span>Creating new revenue streams beyond room nights</span>
                   </div>
                   <div className="challenge-point">
                     <div className="point-icon">
                       <div className="icon-circle"></div>
                     </div>
-                    <span>Limited digital presence and lead generation</span>
+                    <span>Improving operations and guest experience</span>
+                  </div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Creating cohesive vision across all property elements</span>
                   </div>
                 </div>
               </div>
               
               <div className="case-solution">
-                <h3>The Solution</h3>
-                <p>Developed comprehensive brand strategy, digital marketing systems, and customer acquisition funnels over 8 months.</p>
+                <h3>What I Did</h3>
+                <p>I led the complete relaunch by reimagining the hotel concept, developing new brand identity, and creating integrated hospitality experiences across all property elements.</p>
                 <div className="solution-phases">
                   <div className="phase-item">
                     <div className="phase-number">01</div>
                     <div className="phase-content">
-                      <h4>Brand Strategy</h4>
-                      <p>Created compelling brand positioning and messaging framework</p>
+                      <h4>Brand Reimagination</h4>
+                      <p>Reimagined hotel concept and redesigned complete visual identity system</p>
                     </div>
                   </div>
                   <div className="phase-item">
                     <div className="phase-number">02</div>
                     <div className="phase-content">
-                      <h4>Digital Platform</h4>
-                      <p>Built integrated website, content strategy, and social media presence</p>
+                      <h4>Experience Development</h4>
+                      <p>Developed new retail, F&B, and event concepts with experiential programming</p>
                     </div>
                   </div>
                   <div className="phase-item">
                     <div className="phase-number">03</div>
                     <div className="phase-content">
-                      <h4>Lead Systems</h4>
-                      <p>Implemented automated lead generation and nurturing systems</p>
+                      <h4>Integrated Strategy</h4>
+                      <p>Aligned marketing, operations, and commercial strategy into cohesive model</p>
                     </div>
                   </div>
                 </div>
@@ -298,18 +340,30 @@ export default function CaseStudies() {
               
               <div className="case-results">
                 <h3>The Results</h3>
-                <div className="results-grid">
-                  <div className="result-metric">
-                    <div className="metric-value gradient-text">200%</div>
-                    <div className="metric-description">Increase in<br />Qualified Leads</div>
+                <div className="challenge-points">
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Reenergized a legacy property with a modern, market-relevant identity</span>
                   </div>
-                  <div className="result-metric">
-                    <div className="metric-value gradient-text">150%</div>
-                    <div className="metric-description">Revenue<br />Growth</div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Improved guest engagement and dwell time</span>
                   </div>
-                  <div className="result-metric">
-                    <div className="metric-value gradient-text">85%</div>
-                    <div className="metric-description">Brand Recognition<br />Improvement</div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>Expanded revenue streams through food, beverage, retail, and events</span>
+                  </div>
+                  <div className="challenge-point">
+                    <div className="point-icon">
+                      <div className="icon-circle"></div>
+                    </div>
+                    <span>A sustainable operational model grounded in experience-driven hospitality</span>
                   </div>
                 </div>
               </div>
@@ -336,18 +390,18 @@ export default function CaseStudies() {
             </div>
             
             <div className="testimonial-card">
-              <p className="testimonial-text">"Working with GreenSpring transformed not just our operations, but our entire approach to business. The results exceeded our expectations and continue to drive growth today."</p>
+              <p className="testimonial-text">"The commercial integration John led was seamless and resulted in sustained growth across all our Caribbean markets. His strategic vision and execution capabilities are outstanding."</p>
               <div className="testimonial-author">
-                <strong>Michael Chen</strong>
-                <span>CEO, TechVision Solutions</span>
+                <strong>Regional Marketing Manager</strong>
+                <span>Heineken Caribbean</span>
               </div>
             </div>
             
             <div className="testimonial-card">
-              <p className="testimonial-text">"The strategic clarity and operational improvements we achieved with John's guidance have been game-changing for our organization. Highly recommended."</p>
+              <p className="testimonial-text">"Under John's leadership as Chairman, the St. Maarten Heineken Regatta has become one of the Caribbean's premier international events. His ability to balance brand excellence with local community impact is remarkable."</p>
               <div className="testimonial-author">
-                <strong>Sarah Martinez</strong>
-                <span>President, Industrial Dynamics</span>
+                <strong>Event Stakeholder</strong>
+                <span>St. Maarten Heineken Regatta</span>
               </div>
             </div>
           </div>
