@@ -104,163 +104,93 @@ export default function About() {
           <div className="focus-content">
             <div className="focus-header">
               <h2>Current Focus</h2>
-              <p className="section-subtitle">Where theory meets practice</p>
             </div>
-            <div className="focus-body">
-              <p className="lead">Most recently, my focus has been on the relaunch and reinvention of a 75-year-old historic beachfront hotel in St. Maarten. This work has included:</p>
-              
-              <ul className="focus-list">
-                <li>Reimagining the hotel, bar, restaurant, pool, cabanas, market, and café</li>
-                <li>Redesigning logos, visual identities, merchandise lines, and brand systems</li>
-                <li>Introducing new retail, hospitality, and event-driven concepts</li>
-                <li>Redesigning marketing, operations, and commercial models</li>
-                <li>Reenergizing a legacy property while honoring its history and role in the community</li>
-              </ul>
-              
-              <p className="focus-closing">This project represents the culmination of my career—marketing, operations, and commercial concepts reimagined, not in theory, but in practice.</p>
+            <div className="focus-grid">
+              <div className="focus-text">
+                <p className="lead">Most recently, my focus has been on the relaunch and reinvention of a 75-year-old historic beachfront hotel in St. Maarten. This work has included:</p>
+                
+                <ul className="focus-list">
+                  <li>Reimagining the hotel, bar, restaurant, pool, cabanas, market, and café</li>
+                  <li>Redesigning logos, visual identities, merchandise lines, and brand systems</li>
+                  <li>Introducing new retail, hospitality, and event-driven concepts</li>
+                  <li>Redesigning marketing, operations, and commercial models</li>
+                  <li>Reenergizing a legacy property while honoring its history and role in the community</li>
+                </ul>
+                
+              </div>
+              <div className="focus-image">
+                <img src={getImagePath('images/seaview-hotel-pool.jpg')} alt="Seaview Hotel - Historic Beachfront Property Transformation" className="hotel-image" />
+              </div>
+            </div>
+            <div className="focus-highlight">
+              <p>This project represents the culmination of my career—marketing, operations, and commercial concepts reimagined, not in theory, but in practice.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Philosophy Section */}
+      {/* Leadership Recognition Section */}
       <section className="philosophy">
         <div className="container">
           <div className="section-header">
-            <h2>My Approach to Business Transformation</h2>
-            <p>Proven principles that drive sustainable results</p>
+            <h2>Leadership Recognition</h2>
           </div>
-          <div className="philosophy-grid">
-            <div className="philosophy-item">
-              <div className="philosophy-icon">
-                <div className="icon-circle gradient-bg"></div>
-              </div>
-              <h3>Systems Thinking</h3>
-              <p>Every business challenge is interconnected. I focus on understanding the whole system before optimizing individual components, ensuring changes create lasting impact rather than temporary fixes.</p>
-            </div>
-            <div className="philosophy-item">
-              <div className="philosophy-icon">
-                <div className="icon-circle gradient-bg"></div>
-              </div>
-              <h3>Data-Driven Decisions</h3>
-              <p>Intuition guides us, but data validates our path. Every recommendation is backed by thorough analysis and measurable metrics that track progress toward your goals.</p>
-            </div>
-            <div className="philosophy-item">
-              <div className="philosophy-icon">
-                <div className="icon-circle gradient-bg"></div>
-              </div>
-              <h3>Sustainable Growth</h3>
-              <p>Quick fixes create quick failures. I design strategies and systems that scale with your organization, building capabilities that continue delivering value long after our engagement.</p>
-            </div>
-            <div className="philosophy-item">
-              <div className="philosophy-icon">
-                <div className="icon-circle gradient-bg"></div>
-              </div>
-              <h3>Leadership Development</h3>
-              <p>Great strategies require great execution, and great execution requires strong leadership. I invest in developing your team's capabilities alongside strategic initiatives.</p>
+          <div className="recognition-content">
+            <div className="recognition-feature">
+              <h3>Featured in <em>The Solutions-Oriented Leader</em> (Dr. Rick Goodman)</h3>
+              <p>I am featured in <em>The Solutions-Oriented Leader</em>, which highlights my leadership during Hurricane Irma in St. Maarten and the solutions-focused mindset required to protect people, stabilize operations, and move forward under pressure. The excerpt also reflects how I used major event and brand activations—including the Heineken Regatta—to rally teams, support the community, and help drive recovery.</p>
+              
+              <blockquote className="leadership-quote">
+                "Be Positive, Be Patient, Be Smart, and Family First!"
+              </blockquote>
+              
+              <p className="recognition-closing">This recognition reflects the same approach I bring to my work today: stay focused on solutions, support people, and deliver results—especially when it matters most.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Credentials Section */}
+      {/* Creative Work Section */}
       <section className="credentials-section">
         <div className="container">
-          <div className="credentials-grid">
-            <div className="credentials-content">
-              <h2>Credentials & Experience</h2>
-              <div className="credential-list">
-                <div className="credential-item-large">
-                  <div className="credential-icon">
-                    <div className="icon-circle gradient-bg"></div>
-                  </div>
-                  <div className="credential-details">
-                    <h4>Bachelor of Science, Business Administration</h4>
-                    <p>University of Connecticut School of Business</p>
-                  </div>
-                </div>
-                <div className="credential-item-large">
-                  <div className="credential-icon">
-                    <div className="icon-circle gradient-bg"></div>
-                  </div>
-                  <div className="credential-details">
-                    <h4>Executive Management Course</h4>
-                    <p>INSEAD</p>
-                  </div>
-                </div>
-                <div className="credential-item-large">
-                  <div className="credential-icon">
-                    <div className="icon-circle gradient-bg"></div>
-                  </div>
-                  <div className="credential-details">
-                    <h4>Executive Management Course</h4>
-                    <p>Harvard University</p>
-                  </div>
-                </div>
-              </div>
+          <div className="section-header">
+            <h2>Creative Work & Authorship</h2>
+          </div>
+          <div className="creative-grid">
+            <div className="creative-image">
+              <img src={getImagePath('images/laughing-book-cover.jpg')} alt="Laughing - Poems for an Awesome! Life by J. Leone" className="book-cover-image" />
             </div>
-            <div className="experience-content">
-              <h2>Key Achievements</h2>
-              <div className="achievement-list">
-                <div className="achievement-item">
-                  <div className="achievement-number">
-                    <span className="gradient-text">20+</span>
-                  </div>
-                  <div className="achievement-text">
-                    <h4>Years of Experience</h4>
-                    <p>Leading growth initiatives across global markets</p>
-                  </div>
-                </div>
-                <div className="achievement-item">
-                  <div className="achievement-number">
-                    <span className="gradient-text">600%</span>
-                  </div>
-                  <div className="achievement-text">
-                    <h4>Revenue Growth Achieved</h4>
-                    <p>Maximum growth in beverage operations</p>
-                  </div>
-                </div>
-                <div className="achievement-item">
-                  <div className="achievement-number">
-                    <span className="gradient-text">15+</span>
-                  </div>
-                  <div className="achievement-text">
-                    <h4>Years Running GreenSpring</h4>
-                    <p>Providing strategic solutions since 2010</p>
-                  </div>
-                </div>
+            <div className="creative-text">
+              <p className="lead">In addition to my professional work, I am also the author of the 3 part book series <strong>Living, Laughing & Loving: Poems for an Awesome! Life</strong>, a collection focused on perspective, resilience, creativity, and the human experience.</p>
+              
+              <p>Writing and Drawing has been an important creative outlet throughout my career and reflects a belief that strong leadership and effective communication are grounded not only in strategy and execution, but also in empathy, clarity, and self-awareness.</p>
+              
+              <div className="creative-highlight">
+                <p>This creative work complements my professional approach—bringing balance, reflection, and emotional intelligence to complex business and leadership environments.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Mission Section */}
+      {/* Today Section */}
       <section className="mission">
         <div className="container">
-          <div className="mission-content">
-            <div className="mission-text">
-              <h2>The GreenSpring Mission</h2>
-              <p className="lead">To empower visionary leaders with the strategic insights, operational excellence, and growth systems needed to build sustainable, impactful organizations—drawing from proven experience across global markets and diverse industries.</p>
-              <p>Having led initiatives from launching craft breweries to managing commercial strategy for international brands, I understand that every business has unique potential for transformation. My role is to unlock that potential through hands-on partnership, proven methodologies, and strategic thinking that delivers measurable results.</p>
-              <div className="mission-values">
-                <div className="value-item">
-                  <strong>Integrity:</strong> Honest assessments and transparent communication
-                </div>
-                <div className="value-item">
-                  <strong>Excellence:</strong> Delivering exceptional results through rigorous standards
-                </div>
-                <div className="value-item">
-                  <strong>Partnership:</strong> Working alongside you, not just for you
-                </div>
-                <div className="value-item">
-                  <strong>Innovation:</strong> Bringing fresh perspectives to complex challenges
-                </div>
-              </div>
-            </div>
-            <div className="mission-visual">
-              <img src={getImagePath('images/seaview-linkedin-banner.jpeg')} alt="Professional workspace" className="mission-image" />
-            </div>
+          <div className="section-header">
+            <h2>Today</h2>
+          </div>
+          <div className="today-content">
+            <p className="lead">Through GreenSpring Marketing & Management, I work directly with owners, operators, boards, and leadership teams to help them:</p>
+            
+            <ul className="today-list">
+              <li>Launch or relaunch businesses</li>
+              <li>Reimagine brands, visual identities, and merchandise programs</li>
+              <li>Improve operations and profitability</li>
+              <li>Align marketing with execution</li>
+              <li>Turn ideas into sustainable commercial results</li>
+            </ul>
+            
+            <p className="today-closing">Whether working with small businesses or global organizations, my approach remains the same: hands-on, practical, and grounded in real operating experience.</p>
           </div>
         </div>
       </section>
