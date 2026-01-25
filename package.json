@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "npm run build:local && npx serve out -p 3000",
+    "next": "next dev",
     "build": "next build",
     "build:local": "NEXT_PUBLIC_LOCAL_DEV=true next build",
     "start": "next start",
