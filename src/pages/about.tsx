@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '../components/Layout';
 import TimelineItem from '../components/TimelineItem';
+import CTASection from '../components/CTASection';
 import { getImagePath } from '../utils/imagePath';
 
 const careerTimeline = [
@@ -196,18 +197,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="cta-section">
-        <div className="container">
-          <div className="cta-content">
-            <h2>Ready to Transform Your Business?</h2>
-            <p>Let's discuss your challenges and explore how GreenSpring can help you achieve your growth objectives.</p>
-            <div className="cta-buttons">
-              <button className="btn btn-primary btn-large">Schedule Free Consultation</button>
-              <a href="/services" className="btn btn-outline btn-large">Explore Services</a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTASection />
     </Layout>
   )
 }

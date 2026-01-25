@@ -1,4 +1,5 @@
 import Layout from '../components/Layout'
+import CTASection from '../components/CTASection'
 import Link from 'next/link'
 import { getImagePath } from '../utils/imagePath'
 
@@ -140,18 +141,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="cta-section">
-        <div className="container">
-          <div className="cta-content">
-            <h2>Ready to Transform Your Business?</h2>
-            <p>Let's discuss how GreenSpring can help you achieve sustainable growth and operational excellence.</p>
-            <div className="cta-buttons">
-              <Link href="/contact" className="btn btn-primary btn-large">Schedule Free Consultation</Link>
-              <Link href="/contact" className="btn btn-outline btn-large">Get In Touch</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTASection />
     </Layout>
   )
 }

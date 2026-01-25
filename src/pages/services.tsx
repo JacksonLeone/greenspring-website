@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import CTASection from '../components/CTASection'
 import Link from 'next/link'
 
 export default function Services() {
@@ -362,18 +363,7 @@ export default function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="cta-section">
-        <div className="container">
-          <div className="cta-content">
-            <h2>Ready to Transform Your Business?</h2>
-            <p>Let's discuss how these services can drive growth and excellence in your organization.</p>
-            <div className="cta-buttons">
-              <button className="btn btn-primary btn-large">Schedule Free Consultation</button>
-              <Link href="/contact" className="btn btn-outline btn-large">Get In Touch</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTASection />
     </Layout>
   )
 }
