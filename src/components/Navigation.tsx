@@ -45,7 +45,7 @@ export default function Navigation() {
       <div className="nav-container">
         <div className="nav-logo">
           <Link href="/">
-            <img src={getImagePath('images/greenspring-logo-with-text.png')} alt="GreenSpring - Management & Marketing" className="logo-with-text" />
+            <img src={getImagePath('images/Logo With Text.png')} alt="GreenSpring Studio - Brand • Place • Experience • Strategy" className="logo-with-text" />
           </Link>
         </div>
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>

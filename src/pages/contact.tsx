@@ -139,7 +139,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-details">
                   <h4>LinkedIn</h4>
-                  <p><a href="https://linkedin.com/in/johnleone-greenspring" target="_blank" rel="noopener noreferrer">Connect with me</a></p>
+                  <p><a href="http://linkedin.com/in/johnleone" target="_blank" rel="noopener noreferrer">Connect with me</a></p>
                 </div>
               </div>
               
