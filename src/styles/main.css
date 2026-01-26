@@ -7,7 +7,7 @@
 
 :root {
     /* GreenSpring Brand Colors - Exact Logo Colors */
-    --primary-green: #00AB4F;
+    --primary-green: #04AE3F;
     --primary-blue: #016DC2;
     --dark-bg: #0a0a0a;
     --dark-secondary: #1a1a1a;
@@ -17,7 +17,7 @@
     
     /* Gradient */
     --gradient-primary: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-blue) 100%);
-    --gradient-subtle: linear-gradient(135deg, rgba(0, 171, 79, 0.1) 0%, rgba(1, 109, 194, 0.1) 100%);
+    --gradient-subtle: linear-gradient(135deg, rgba(4, 174, 63, 0.1) 0%, rgba(1, 109, 194, 0.1) 100%);
     
     /* Spacing */
     --section-padding: 5rem 0;
@@ -517,6 +517,12 @@ h4 { font-size: var(--font-size-2xl); }
 
 .footer-logo .logo {
     height: 40px;
+    margin-bottom: 1rem;
+}
+
+.footer-logo .logo-with-text {
+    max-width: 250px;
+    height: auto;
     margin-bottom: 1rem;
 }
 
