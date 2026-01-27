@@ -31,12 +31,8 @@ export default function Home() {
       <section className="intro-section">
         <div className="container">
           <div className="intro-grid">
-            <div className="intro-image">
-              <img src={getImagePath('images/john-leone-linkedin.jpeg')} alt="John Leone - GreenSpring Founder" className="profile-image" />
-            </div>
-            <div className="intro-content">
-              <p className="intro-lead">From small business launches to global brands like <strong>Heineken</strong> and <strong>Walmart</strong>, I bring hands-on leadership experience to help owners and executives grow revenue, strengthen operations, and activate their brands effectively.</p>
-            </div>
+            <img src={getImagePath('images/john-leone-linkedin.jpeg')} alt="John Leone - GreenSpring Founder" className="profile-image" />
+            <p className="intro-lead">From small business launches to global brands like <strong>Heineken</strong> and <strong>Walmart</strong>, I bring hands-on leadership experience to help owners and executives grow revenue, strengthen operations, and activate their brands effectively.</p>
           </div>
         </div>
       </section>
