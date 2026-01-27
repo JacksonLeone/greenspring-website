@@ -1774,6 +1774,7 @@ h4 { font-size: var(--font-size-2xl); }
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
 .case-meta span {
@@ -2118,16 +2119,17 @@ h4 { font-size: var(--font-size-2xl); }
         grid-template-columns: 1fr;
     }
     
-    .case-meta {
-        flex-direction: column;
-    }
-    
     .results-grid {
         grid-template-columns: 1fr;
     }
     
     .metrics-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
     
     /* Home page sections - responsive */
