@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import CTASection from '../components/CTASection'
 import { contactContent } from '../content/contact'
 
 export default function Contact() {
@@ -154,19 +155,8 @@ export default function Contact() {
       </section>
 
 
-      {/* Final CTA */}
-      <section className="cta-section">
-        <div className="container">
-          <div className="cta-content">
-            <h2>Let's Start the Transformation</h2>
-            <p>Every great success story begins with a conversation. Let's start yours today.</p>
-            <div className="cta-buttons">
-              <button className="btn btn-primary btn-large">Schedule Free Consultation</button>
-              <a href="mailto:greenspringjohn@gmail.com" className="btn btn-outline btn-large">Send Direct Email</a>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* CTA Section */}
+      <CTASection />
     </Layout>
   )
 }
