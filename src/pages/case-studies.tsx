@@ -2,16 +2,19 @@ import React from 'react'
 import Layout from '../components/Layout'
 import CTASection from '../components/CTASection'
 import Link from 'next/link'
+import { caseStudiesContent } from '../content/case-studies'
 
 export default function CaseStudies() {
+  const { hero, caseStudies, testimonials } = caseStudiesContent
+  
   return (
     <Layout title="Case Studies - GreenSpring Success Stories">
       {/* Hero Section */}
       <section className="page-hero">
         <div className="container">
           <div className="hero-content">
-            <h1>Proven <span className="gradient-text">Results</span></h1>
-            <p className="hero-subtitle">Real transformations, measurable outcomes, and lasting impact for forward-thinking organizations.</p>
+            <h1>{hero.title} <span className="gradient-text">{hero.titleHighlight}</span></h1>
+            <p className="hero-subtitle">{hero.subtitle}</p>
           </div>
         </div>
       </section>
@@ -19,314 +22,65 @@ export default function CaseStudies() {
       {/* Case Studies */}
       <section className="case-studies">
         <div className="container">
-          {/* Case Study 1 */}
-          <div className="case-study">
-            <div className="case-header">
-              <div className="case-meta">
-                <span className="case-industry">Beverage & Distribution</span>
-                <span className="case-size">Caribbean Markets</span>
-              </div>
-              <h2>Heineken & ILTT Commercial Integration</h2>
-              <p className="case-subtitle">Strategic integration of two organizations into a unified commercial platform across multiple Caribbean markets</p>
-            </div>
-            
-            <div className="case-content">
-              <div className="case-challenge">
-                <h3>The Challenge</h3>
-                <p>Following a strategic market shift, Heineken and International Liquor & Tobacco Trading (ILTT) required integration into a single commercial organization while maintaining momentum and continuing revenue growth during the transition.</p>
-                <div className="challenge-points">
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Aligning sales teams and incentive structures</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Harmonizing pricing and portfolio strategy</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Balancing brand standards with local market realities</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Maintaining revenue growth during organizational change</span>
-                  </div>
+          {caseStudies.map((caseStudy, index) => (
+            <div className="case-study" key={caseStudy.id}>
+              <div className="case-header">
+                <div className="case-meta">
+                  <span className="case-industry">{caseStudy.meta.industry}</span>
+                  <span className="case-size">{caseStudy.meta.size}</span>
                 </div>
+                <h2>{caseStudy.title}</h2>
+                <p className="case-subtitle">{caseStudy.subtitle}</p>
               </div>
               
-              <div className="case-solution">
-                <h3>What I Did</h3>
-                <p>As Commercial Director, I led the comprehensive integration by designing and implementing unified commercial structures while maintaining operational momentum.</p>
-                <div className="solution-phases">
-                  <div className="phase-item">
-                    <div className="phase-number">01</div>
-                    <div className="phase-content">
-                      <h4>Commercial Structure</h4>
-                      <p>Designed and implemented unified commercial organization across markets</p>
-                    </div>
-                  </div>
-                  <div className="phase-item">
-                    <div className="phase-number">02</div>
-                    <div className="phase-content">
-                      <h4>Team Integration</h4>
-                      <p>Aligned teams, KPIs, and incentive programs while integrating pricing and promotions</p>
-                    </div>
-                  </div>
-                  <div className="phase-item">
-                    <div className="phase-number">03</div>
-                    <div className="phase-content">
-                      <h4>Execution Excellence</h4>
-                      <p>Strengthened distributor execution and cross-functional collaboration</p>
-                    </div>
+              <div className="case-content">
+                <div className="case-challenge">
+                  <h3>The Challenge</h3>
+                  <p>{caseStudy.challenge.description}</p>
+                  <div className="challenge-points">
+                    {caseStudy.challenge.points.map((point, pointIndex) => (
+                      <div className="challenge-point" key={pointIndex}>
+                        <div className="point-icon">
+                          <div className="icon-circle"></div>
+                        </div>
+                        <span>{point}</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
-              </div>
-              
-              <div className="case-results">
-                <h3>The Results</h3>
-                <div className="challenge-points">
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Successful integration of two organizations into a single commercial platform</span>
+                
+                <div className="case-solution">
+                  <h3>What I Did</h3>
+                  <p>{caseStudy.solution.description}</p>
+                  <div className="solution-phases">
+                    {caseStudy.solution.phases.map((phase, phaseIndex) => (
+                      <div className="phase-item" key={phaseIndex}>
+                        <div className="phase-number">{String(phaseIndex + 1).padStart(2, '0')}</div>
+                        <div className="phase-content">
+                          <h4>{phase.title}</h4>
+                          <p>{phase.description}</p>
+                        </div>
+                      </div>
+                    ))}
                   </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Improved portfolio focus and execution across multiple islands</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Sustained revenue growth and increased operational clarity</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>A scalable commercial model that supported long-term expansion</span>
+                </div>
+                
+                <div className="case-results">
+                  <h3>The Results</h3>
+                  <div className="challenge-points">
+                    {caseStudy.results.map((result, resultIndex) => (
+                      <div className="challenge-point" key={resultIndex}>
+                        <div className="point-icon">
+                          <div className="icon-circle"></div>
+                        </div>
+                        <span>{result}</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Case Study 2 */}
-          <div className="case-study">
-            <div className="case-header">
-              <div className="case-meta">
-                <span className="case-industry">Event Management</span>
-                <span className="case-size">International Scale</span>
-              </div>
-              <h2>St. Maarten Heineken Regatta – Event Leadership & Brand Activation</h2>
-              <p className="case-subtitle">20+ years leading one of the Caribbean's most recognized international sporting and entertainment events</p>
-            </div>
-            
-            <div className="case-content">
-              <div className="case-challenge">
-                <h3>The Challenge</h3>
-                <p>Deliver a large-scale, multi-day international event combining world-class sailing, live entertainment, and global brand partnerships while meeting global standards and continuing to grow relevance year after year.</p>
-                <div className="challenge-points">
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Meeting global brand standards consistently</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Engaging diverse local and international audiences</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Operating safely in complex island environment</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Delivering commercial value to sponsors</span>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="case-solution">
-                <h3>What I Did</h3>
-                <p>For over 20 years, I led comprehensive event production, strategic direction, and stakeholder coordination while serving as Chairman of the event.</p>
-                <div className="solution-phases">
-                  <div className="phase-item">
-                    <div className="phase-number">01</div>
-                    <div className="phase-content">
-                      <h4>Event Production</h4>
-                      <p>Produced large-scale entertainment and on-shore activations with world-class execution</p>
-                    </div>
-                  </div>
-                  <div className="phase-item">
-                    <div className="phase-number">02</div>
-                    <div className="phase-content">
-                      <h4>Brand Integration</h4>
-                      <p>Led sponsorship integration and brand programming across all event elements</p>
-                    </div>
-                  </div>
-                  <div className="phase-item">
-                    <div className="phase-number">03</div>
-                    <div className="phase-content">
-                      <h4>Strategic Leadership</h4>
-                      <p>Guided strategic direction and used platform for community engagement</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="case-results">
-                <h3>The Results</h3>
-                <div className="challenge-points">
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Consistent delivery of a world-class international event</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Strong sponsor retention and brand alignment</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Significant economic and cultural impact for the island</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Long-term growth of the event's global profile and local relevance</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Case Study 3 */}
-          <div className="case-study">
-            <div className="case-header">
-              <div className="case-meta">
-                <span className="case-industry">Hospitality</span>
-                <span className="case-size">Historic Property</span>
-              </div>
-              <h2>Historic Beachfront Hotel Relaunch – St. Maarten</h2>
-              <p className="case-subtitle">Complete transformation of 75-year-old historic beachfront property into modern, market-relevant hospitality experience</p>
-            </div>
-            
-            <div className="case-content">
-              <div className="case-challenge">
-                <h3>The Challenge</h3>
-                <p>A 75-year-old historic beachfront hotel required a full relaunch to remain relevant in a changing hospitality market while respecting its legacy and maintaining its important community role.</p>
-                <div className="challenge-points">
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Refreshing identity and market positioning</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Creating new revenue streams beyond room nights</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Improving operations and guest experience</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Creating cohesive vision across all property elements</span>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="case-solution">
-                <h3>What I Did</h3>
-                <p>I led the complete relaunch by reimagining the hotel concept, developing new brand identity, and creating integrated hospitality experiences across all property elements.</p>
-                <div className="solution-phases">
-                  <div className="phase-item">
-                    <div className="phase-number">01</div>
-                    <div className="phase-content">
-                      <h4>Brand Reimagination</h4>
-                      <p>Reimagined hotel concept and redesigned complete visual identity system</p>
-                    </div>
-                  </div>
-                  <div className="phase-item">
-                    <div className="phase-number">02</div>
-                    <div className="phase-content">
-                      <h4>Experience Development</h4>
-                      <p>Developed new retail, F&B, and event concepts with experiential programming</p>
-                    </div>
-                  </div>
-                  <div className="phase-item">
-                    <div className="phase-number">03</div>
-                    <div className="phase-content">
-                      <h4>Integrated Strategy</h4>
-                      <p>Aligned marketing, operations, and commercial strategy into cohesive model</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="case-results">
-                <h3>The Results</h3>
-                <div className="challenge-points">
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Reenergized a legacy property with a modern, market-relevant identity</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Improved guest engagement and dwell time</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>Expanded revenue streams through food, beverage, retail, and events</span>
-                  </div>
-                  <div className="challenge-point">
-                    <div className="point-icon">
-                      <div className="icon-circle"></div>
-                    </div>
-                    <span>A sustainable operational model grounded in experience-driven hospitality</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
 
@@ -334,27 +88,23 @@ export default function CaseStudies() {
       <section className="testimonials-section">
         <div className="container">
           <div className="section-header">
-            <h2>What Clients Say</h2>
-            <p>Direct feedback from transformation partners</p>
+            <h2>{testimonials.title}</h2>
+            <p>{testimonials.subtitle}</p>
           </div>
           
           <div className="testimonials-grid">
-            <div className="testimonial-card">
-              <p className="testimonial-text">"John is a great Director, he has a kind of authority/charm that everybody likes, this results in a structured company with a very good vibe! His expertise in operations and marketing is exceptional."</p>
-              <div className="testimonial-author">
-                <strong>Davina Lamberts</strong>
-                <span>Co-owner & CEO, BKN-Productions</span>
+            {testimonials.items.map((testimonial, index) => (
+              <div className="testimonial-card" key={index}>
+                <p className="testimonial-text">"{testimonial.text}"</p>
+                <div className="testimonial-author">
+                  <strong>{testimonial.author}</strong>
+                  <span>{testimonial.title}</span>
+                </div>
+                {testimonial.link && (
+                  <a href={testimonial.link.url} download className="testimonial-link">{testimonial.link.text}</a>
+                )}
               </div>
-            </div>
-            
-            <div className="testimonial-card">
-              <p className="testimonial-text">"John Leone is a solutions-oriented leader. He is one of the owners of International Liquors Tobacco and Trading and Heineken in St. Maarten, an island in the Caribbean Sea. He has always had his hand on the pulse of his employees, with a focus on family first and delivering world-class customer service."</p>
-              <div className="testimonial-author">
-                <strong>Dr. Rick Goodman</strong>
-                <span>Leadership Expert and Keynote Speaker</span>
-              </div>
-              <a href="/downloads/John Leone excerpt Leadership.pdf" download className="testimonial-link">Read Full Leadership Excerpt</a>
-            </div>
+            ))}
           </div>
         </div>
       </section>

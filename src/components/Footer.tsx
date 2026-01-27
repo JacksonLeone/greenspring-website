@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src={getImagePath('images/GS Studio.png')} alt="GreenSpring Logo" className="logo-with-text" />
+            <img src={getImagePath('images/greenspring-studio-logo.png')} alt="GreenSpring Logo" className="logo-with-text" />
           </div>
           <div className="footer-links">
             <div className="footer-column">
@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 GreenSpring Brand • Place • Experience • Strategy.</p>
+          <p>&copy; 2026 GreenSpring Studio - Brand • Concept • Experience • Commercial Strategy</p>
         </div>
       </div>
     </footer>
