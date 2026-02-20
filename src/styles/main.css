@@ -1450,10 +1450,7 @@ h4 { font-size: var(--font-size-2xl); }
 }
 
 .service-outcomes {
-    background: var(--dark-bg);
     padding: 2rem;
-    border-radius: var(--border-radius);
-    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .service-goal {
@@ -1519,7 +1516,7 @@ h4 { font-size: var(--font-size-2xl); }
 /* Process Section */
 .process-section {
     padding: var(--section-padding);
-    background: var(--dark-secondary);
+    background: var(--dark-bg);
 }
 
 .process-timeline {
