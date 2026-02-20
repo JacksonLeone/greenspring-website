@@ -973,9 +973,22 @@ h4 { font-size: var(--font-size-2xl); }
     background: var(--dark-secondary);
 }
 
+.creative-content {
+    max-width: 100%;
+}
+
+.creative-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.creative-header h2 {
+    margin-bottom: 0.5rem;
+}
+
 .creative-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
 }
@@ -983,25 +996,26 @@ h4 { font-size: var(--font-size-2xl); }
 .creative-image {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .book-cover-image {
     width: 100%;
-    max-width: 350px;
+    max-width: 500px;
     border-radius: 12px;
     box-shadow: 0 10px 40px rgba(0, 171, 79, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .book-cover-image:hover {
-    transform: translateY(-8px);
+    transform: scale(1.02);
     box-shadow: 0 15px 50px rgba(0, 171, 79, 0.3);
 }
 
 .creative-text .lead {
     font-size: var(--font-size-lg);
     color: var(--text-secondary);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .creative-text p {
@@ -1023,34 +1037,6 @@ h4 { font-size: var(--font-size-2xl); }
     color: var(--text-primary);
     font-weight: 500;
     margin: 0;
-}
-
-.creative-content {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.creative-content .lead {
-    font-size: var(--font-size-lg);
-    color: var(--text-secondary);
-    margin-bottom: 2rem;
-}
-
-.creative-content p {
-    color: var(--text-secondary);
-    line-height: 1.7;
-    margin-bottom: 1.5rem;
-}
-
-.creative-closing {
-    margin-top: 2rem;
-    font-size: var(--font-size-lg);
-    color: var(--text-primary);
-    font-weight: 500;
-    padding: 1.5rem;
-    background: var(--dark-bg);
-    border-left: 4px solid var(--primary-green);
-    border-radius: var(--border-radius-small);
 }
 
 .credentials-grid {
@@ -1464,10 +1450,7 @@ h4 { font-size: var(--font-size-2xl); }
 }
 
 .service-outcomes {
-    background: var(--dark-bg);
     padding: 2rem;
-    border-radius: var(--border-radius);
-    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .service-goal {
@@ -1533,7 +1516,7 @@ h4 { font-size: var(--font-size-2xl); }
 /* Process Section */
 .process-section {
     padding: var(--section-padding);
-    background: var(--dark-secondary);
+    background: var(--dark-bg);
 }
 
 .process-timeline {
@@ -2056,7 +2039,7 @@ h4 { font-size: var(--font-size-2xl); }
     }
     
     .book-cover-image {
-        max-width: 280px;
+        max-width: 400px;
     }
     
     .hotel-image {
@@ -2489,4 +2472,65 @@ h4 { font-size: var(--font-size-2xl); }
     margin: 0;
     font-weight: 500;
     text-align: center;
+}
+/* Presentations Section */
+.presentations-section {
+    padding: 3rem 0;
+    background-color: var(--dark-bg);
+}
+
+.presentations-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.presentations-content h3 {
+    font-size: var(--font-size-xl);
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.presentations-content p {
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.presentations-availability {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+/* Presentations Section */
+.presentations-section {
+    padding: 3rem 0;
+    background: var(--gradient-subtle);
+}
+
+.presentations-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.presentations-content h3 {
+    font-size: var(--font-size-xl);
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.presentations-content p {
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.presentations-availability {
+    font-style: italic;
+    opacity: 0.8;
 }

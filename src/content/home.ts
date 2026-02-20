@@ -1,10 +1,11 @@
 export const homeContent = {
   hero: {
-    title: "Using Experience to Deliver",
-    titleHighlight: "Real Business Results",
-    subtitle: "I help businesses improve performance by applying real-world experience across marketing, operations, retail, hospitality, and events—turning ideas into execution and execution into results.",
-    primaryButton: "Schedule Consultation",
-    secondaryButton: "Learn More"
+    title: "Create the Vision. Align the Execution",
+    titleHighlight: "Drive Real Growth.",
+    subtitle_p1: "I help organizations and leaders create clarity where it is missing, align ideas with execution, and turn strategy into measurable market results.",
+    subtitle_p2: "Blending creative thinking with operational discipline and commercial expertise, I bring hands-on leadership to the moments that define the next steps.",
+    primaryButton: "Start the Conversation",
+    secondaryButton: "View Experience"
   },
   
   intro: {
@@ -12,46 +13,46 @@ export const homeContent = {
   },
   
   helpWith: {
-    title: "What I Help With",
-    intro: "I help businesses:",
+    title: "How I Help Organizations Move Forward:",
+    intro: "I help businesses with",
     items: [
       {
-        title: "Improve commercial performance",
-        description: "through smarter pricing, portfolio strategy, and execution"
+        title: "Vision and Direction",
+        description: "clarifying purpose, priorities, and growth strategy when the path is not clear."
       },
       {
-        title: "Strengthen operations",
-        description: "with practical systems, structure, and accountability"
+        title: "Execution and Operations",
+        description: "aligning teams, resources, and processes to deliver real results"
       },
       {
-        title: "Activate their brand",
-        description: "through marketing, events, retail, and experiential programs that drive results"
+        title: "Commercial Performance",
+        description: "strengthening marketing, retail, customer experience, and revenue growth"
       }
     ]
   },
   
   why: {
-    title: "Why Work With Me",
+    title: "When Progress Matters Most",
     intro: "I don't approach your business as a consultant—I approach it as an operator.",
-    subheading: "My background includes:",
+    subheading: "Leaders bring me in when:",
     list: [
-      "Opening and operating retail stores (Walmart, Kohl's)",
-      "Corporate marketing and brand execution (Kraft General Foods, Heineken)",
-      "Distributor, wholesale, and commercial leadership across international markets",
-      "Large-scale event production and brand activations (St. Maarten Heineken Regatta)",
-      "Hospitality concept development and operational turnaround of a historic beachfront hotel"
+      "Growth has stalled",
+      "A major initiative needs direction",
+      "Marketing and operations are not aligned",
+      "A transformation needs execution",
+      "A business needs to regain momentum",
+      "A complex project needs leadership"
     ],
     closing: "This experience allows me to quickly identify what matters, what doesn't, and where results can be unlocked fastest."
   },
   
   how: {
     title: "How I Work",
-    intro: "My approach is simple and practical:",
+    intro: "Creative, Collaborative, Practical",
     steps: [
-      "Assess your business, challenges, and opportunities",
-      "Focus on the actions that will have the greatest impact",
-      "Support execution, not just planning",
-      "Measure results and adjust quickly"
+      "Clarify",
+      "Align",
+      "Execute"
     ]
   },
   
@@ -65,5 +66,11 @@ export const homeContent = {
       "Businesses preparing to launch, expand, or reposition"
     ],
     closing: "If you need clarity, structure, and execution—not theory—I can help."
+  },
+  
+  presentations: {
+    title: "Presentations and Executive Talks",
+    description: "I share insights on leadership, progress, commercial growth, and navigating complex challenges drawn from real-world experience.",
+    availability: "Available for select keynote and executive presentations."
   }
 }
