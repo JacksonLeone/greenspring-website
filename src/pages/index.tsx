@@ -5,7 +5,7 @@ import { getImagePath } from '../utils/imagePath'
 import { homeContent } from '../content/home'
 
 export default function Home() {
-  const { hero, intro, helpWith, why, how, who } = homeContent
+  const { hero, intro, helpWith, why, how, who, presentations } = homeContent
   
   return (
     <Layout>
@@ -102,6 +102,17 @@ export default function Home() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Presentations Section */}
+      <section className="presentations-section">
+        <div className="container">
+          <div className="presentations-content">
+            <h3>{presentations.title}</h3>
+            <p>{presentations.description}</p>
+            <p className="presentations-availability">{presentations.availability}</p>
           </div>
         </div>
       </section>

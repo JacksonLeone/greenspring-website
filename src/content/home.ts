@@ -66,5 +66,11 @@ export const homeContent = {
       "Businesses preparing to launch, expand, or reposition"
     ],
     closing: "If you need clarity, structure, and execution—not theory—I can help."
+  },
+  
+  presentations: {
+    title: "Presentations and Executive Talks",
+    description: "I share insights on leadership, progress, commercial growth, and navigating complex challenges drawn from real-world experience.",
+    availability: "Available for select keynote and executive presentations."
   }
 }
