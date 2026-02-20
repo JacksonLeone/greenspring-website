@@ -112,21 +112,22 @@ export default function About() {
       {/* Creative Work Section */}
       <section className="credentials-section">
         <div className="container">
-          <div className="section-header">
-            <h2>{creative.title}</h2>
-          </div>
-          <div className="creative-grid">
-            <div className="creative-image">
-              <img src={getImagePath('images/laughing-book-cover.jpg')} alt="Laughing - Poems for an Awesome! Life by J. Leone" className="book-cover-image" />
+          <div className="creative-content">
+            <div className="creative-header">
+              <h2>{creative.title}</h2>
             </div>
-            <div className="creative-text">
-              <p className="lead" dangerouslySetInnerHTML={{ __html: creative.lead }} />
-              
-              <p>{creative.body}</p>
-              
-              <div className="creative-highlight">
-                <p>{creative.highlight}</p>
+            <div className="creative-grid">
+              <div className="creative-image">
+                <img src={getImagePath('images/live_laugh_love.jpeg')} alt="Laughing - Poems for an Awesome! Life by J. Leone" className="book-cover-image" />
               </div>
+              <div className="creative-text">
+                <p className="lead" dangerouslySetInnerHTML={{ __html: creative.lead }} />
+                
+                <p>{creative.body}</p>
+              </div>
+            </div>
+            <div className="creative-highlight">
+              <p>{creative.highlight}</p>
             </div>
           </div>
         </div>
