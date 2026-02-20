@@ -14,7 +14,8 @@ export default function Home() {
         <div className="hero-container">
           <div className="hero-content">
             <h1 className="hero-title">{hero.title} <span className="gradient-text">{hero.titleHighlight}</span></h1>
-            <p className="hero-subtitle">{hero.subtitle}</p>
+            <p className="hero-subtitle">{hero.subtitle_p1}</p>
+            <p className="hero-subtitle">{hero.subtitle_p2}</p>
             <div className="hero-buttons">
               <Link href="/contact" className="btn btn-primary">{hero.primaryButton}</Link>
               <Link href="/about" className="btn btn-secondary">{hero.secondaryButton}</Link>
